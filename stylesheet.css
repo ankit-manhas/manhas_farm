@@ -1,0 +1,1347 @@
+                                        * {
+                                            padding: 0;
+                                            margin: 0%;
+                                        }
+                                        
+                                        .row {
+                                            margin: 0;
+                                        }
+                                        
+                                        .foll {
+                                            height: auto;
+                                            position: fixed;
+                                            top: 0;
+                                            z-index: 100000;
+                                        }
+                                        
+                                        .follow {
+                                            height: auto;
+                                            width: 100vw;
+                                            display: flex;
+                                        }
+                                        
+                                        .follow1 {
+                                            padding: 0px 0px 0px 50px;
+                                            background-color: rgb(54, 54, 54);
+                                            width: 80%;
+                                            display: inline-flex;
+                                            text-align: center;
+                                            align-items: center;
+                                        }
+                                        
+                                        .follo {
+                                            display: inline;
+                                            align-items: center;
+                                            justify-content: center;
+                                            font-weight: 100;
+                                            color: white;
+                                            font-size: 20px;
+                                            margin-top: 5px;
+                                        }
+                                        
+                                        .fb,
+                                        .in,
+                                        .li,
+                                        .tw {
+                                            padding: 5px 15px 5px 10px;
+                                            color: white;
+                                        }
+                                        
+                                        .fb {
+                                            padding-left: 20px;
+                                        }
+                                        
+                                        .follow2 {
+                                            background-color: rgb(211, 211, 54);
+                                            width: 20%;
+                                            display: inline-flex;
+                                            text-align: center;
+                                            align-items: center;
+                                            justify-content: center;
+                                            font-weight: 100;
+                                        }
+                                        
+                                        .ph {
+                                            padding-right: 15px;
+                                            color: rgb(61, 61, 61);
+                                        }
+                                        
+                                        .num {
+                                            color: rgb(61, 61, 61);
+                                            margin-top: 5px;
+                                        }
+                                        
+                                        .call {
+                                            margin-top: 5px;
+                                            padding-right: 5px;
+                                            color: rgb(61, 61, 61);
+                                        }
+                                        
+                                        @media(max-width: 1100px) {
+                                            .follow {
+                                                display: none;
+                                            }
+                                        }
+                                        /* top section */
+                                        
+                                        .nav {
+                                            height: auto;
+                                            width: 100%;
+                                            display: flex;
+                                            justify-content: center;
+                                            color: rgb(0, 0, 0);
+                                            padding-top: 10px;
+                                            position: fixed;
+                                            z-index: 1000;
+                                            background-color: white;
+                                            box-shadow: 0px 0px 3px 0px;
+                                        }
+                                        
+                                        .nav2 {
+                                            height: auto;
+                                            width: 30%;
+                                            color: rgb(106, 104, 104);
+                                            display: flex;
+                                            justify-content: center;
+                                            font-family: 'Times New Roman', Times, serif;
+                                        }
+                                        
+                                        .nav2 h1 {
+                                            font-size: 50px;
+                                        }
+                                        
+                                        .nav ul li a {
+                                            color: black;
+                                        }
+                                        
+                                        .offcanvas-body ul,
+                                        li {
+                                            flex-direction: column;
+                                            text-align: center;
+                                            line-height: 40px;
+                                        }
+                                        
+                                        .nav3 {
+                                            height: auto;
+                                            width: 70%;
+                                            display: flex;
+                                            justify-content: flex-end;
+                                            align-items: center;
+                                        }
+                                        
+                                        .nav4,
+                                        ul,
+                                        li {
+                                            color: rgb(27, 25, 25);
+                                            display: flex;
+                                            padding: 0px 20px 0px 20px;
+                                            text-decoration: none;
+                                        }
+                                        
+                                        .nav3 li:hover {
+                                            color: blue;
+                                        }
+                                        
+                                        .down {
+                                            padding-top: 5px;
+                                        }
+                                        
+                                        a {
+                                            text-decoration: none;
+                                            color: black;
+                                        }
+                                        
+                                        .search {
+                                            padding-top: 7px;
+                                            padding-right: 35px;
+                                        }
+                                        
+                                        .bars {
+                                            visibility: hidden;
+                                        }
+                                        
+                                        .nav5 {
+                                            display: inline;
+                                            padding-bottom: 5px;
+                                            animation-name: abc;
+                                        }
+                                        
+                                        .drop {
+                                            position: relative;
+                                            transition-duration: 0.5s;
+                                        }
+                                        
+                                        .dropedown ul {
+                                            flex-direction: column;
+                                        }
+                                        
+                                        .dropedown li a {
+                                            padding-top: 5px;
+                                            padding-bottom: 5px;
+                                            color: white;
+                                        }
+                                        
+                                        .dropedown {
+                                            width: 150px;
+                                            top: 20px;
+                                            left: 0px;
+                                            position: absolute;
+                                            background-color: white;
+                                            display: none;
+                                            z-index: 1000;
+                                            border-radius: 5%;
+                                            margin-top: 20px;
+                                        }
+                                        
+                                        .dropedown a:hover {
+                                            color: blue;
+                                        }
+                                        
+                                        .nav5:hover .dropedown {
+                                            display: block;
+                                            animation-name: abc;
+                                            animation-duration: 0.5s;
+                                        }
+                                        
+                                        @keyframes abc {
+                                            from {
+                                                transform: translatey(-10px);
+                                                opacity: 0;
+                                            }
+                                            to {
+                                                transform: translate(0px);
+                                                opacity: 1;
+                                            }
+                                        }
+                                        
+                                        @media(max-width:1230px) {
+                                            .nav4,
+                                            .a,
+                                            .search {
+                                                display: none;
+                                            }
+                                            .nav3 {
+                                                display: none;
+                                            }
+                                            .bars {
+                                                visibility: visible;
+                                                width: 10%;
+                                                padding-top: 7px;
+                                            }
+                                            .nav2 {
+                                                width: 100%;
+                                            }
+                                            .nav2 h1 {
+                                                width: 90%;
+                                                font-size: 25px;
+                                            }
+                                            .slide {
+                                                padding-top: 0%;
+                                            }
+                                            .nav3 {
+                                                width: 0%;
+                                            }
+                                        }
+                                        /* navigation */
+                                        
+                                        .cowimage {
+                                            object-fit: cover;
+                                            object-position: bottom;
+                                            /* height: 100vh; */
+                                            margin-top: 100px;
+                                        }
+                                        
+                                        .text {
+                                            display: flex;
+                                            position: relative;
+                                        }
+                                        
+                                        .carouselimg {
+                                            height: 700px;
+                                            width: 100%;
+                                            background-image: url(images/a.jpg);
+                                            background-size: cover;
+                                            display: flex;
+                                            justify-content: right;
+                                            align-items: end;
+                                        }
+                                        
+                                        .carouselimg2 {
+                                            height: 700px;
+                                            width: 100%;
+                                            background-image: url(images/b.jpg);
+                                            background-size: cover;
+                                            display: flex;
+                                            justify-content: right;
+                                            align-items: end;
+                                            background-position: center;
+                                        }
+                                        
+                                        .carouselimg3 {
+                                            height: 700px;
+                                            width: 100%;
+                                            background-image: url(images/sec.jpeg);
+                                            background-size: cover;
+                                            display: flex;
+                                            justify-content: right;
+                                            align-items: end;
+                                            background-position: center;
+                                        }
+                                        
+                                        .carouseltext {
+                                            padding-top: 20px;
+                                            padding-bottom: 20px;
+                                            margin-left: 30px;
+                                            width: 60%;
+                                            /* background-color: transparent; */
+                                            color: white;
+                                            transition-duration: 0.3s;
+                                        }
+                                        
+                                        .carouseltext h3 {
+                                            font-weight: 100;
+                                            padding-bottom: 20px;
+                                        }
+                                        
+                                        .carouseltext h1 {
+                                            font-size: 60px;
+                                            font-weight: 700;
+                                            line-height: 90px;
+                                            font-family: "Tienne", serif;
+                                        }
+                                        
+                                        .button {
+                                            /* color: rgba(0, 128, 0, 0.756); */
+                                            padding: 15px 40px 15px 40px;
+                                            border-radius: 30px;
+                                            background-color: rgb(211, 211, 54);
+                                            border: 0;
+                                            color: rgb(47, 142, 47);
+                                            transition-duration: 0.5s;
+                                        }
+                                        
+                                        .button:hover {
+                                            /* background-color: rgba(0, 128, 0, 0.756); */
+                                            /* color: white; */
+                                            box-shadow: none;
+                                            background-color: rgb(47, 142, 47);
+                                            ;
+                                            color: rgb(211, 211, 54);
+                                            /* color: rgb(106, 104, 104); */
+                                        }
+                                        
+                                        @media(max-width:1100px) {
+                                            /* .carouselimg {
+                                                width: 100%;
+                                                object-fit: cover;
+                                                margin-top: 0%;
+                                                height: 700px;
+                                            } */
+                                            .carouseltext h1 {
+                                                font-size: 30px;
+                                            }
+                                            .carouseltext {
+                                                width: 100%;
+                                                padding: 0%;
+                                            }
+                                            .carouseltext h3 {
+                                                padding: 0%;
+                                            }
+                                            .button {
+                                                padding: 6px 20px 6px 20px;
+                                                font-size: 15px;
+                                                margin-bottom: 5px;
+                                            }
+                                        }
+                                        /* shortimage */
+                                        
+                                        .gap {
+                                            padding: 10px 0px;
+                                            /* color: rgb(47, 142, 47); */
+                                        }
+                                        
+                                        .halftwo b {
+                                            color: rgb(47, 142, 47);
+                                            font-size: 20px;
+                                        }
+                                        
+                                        .halftwo h1,
+                                        p {
+                                            font-family: 'Times New Roman', Times, serif;
+                                        }
+                                        
+                                        .contact .product {
+                                            margin-top: 10px;
+                                        }
+                                        
+                                        .textnimg {
+                                            margin-top: 100px;
+                                            margin-bottom: 100px;
+                                        }
+                                        
+                                        .contact h3,
+                                        p {
+                                            font-family: 'Times New Roman', Times, serif;
+                                        }
+                                        
+                                        .product h3,
+                                        p {
+                                            font-family: 'Times New Roman', Times, serif;
+                                        }
+                                        
+                                        .cow1 {
+                                            display: flex;
+                                            align-items: center;
+                                            text-align: center;
+                                            justify-content: center;
+                                            padding: 4px 0px;
+                                            position: relative;
+                                        }
+                                        
+                                        .years {
+                                            height: 250px;
+                                            background-color: rgb(211, 211, 54);
+                                            border-radius: 10px;
+                                            position: absolute;
+                                            right: -45px;
+                                            bottom: -45px;
+                                        }
+                                        
+                                        .years h1 {
+                                            font-size: 100px;
+                                            display: block;
+                                        }
+                                        
+                                        .years p {
+                                            display: block;
+                                        }
+                                        
+                                        .cow2 {
+                                            padding: 4px 0px;
+                                        }
+                                        
+                                        .cow4 {
+                                            padding: 4px 0px;
+                                        }
+                                        
+                                        .cowpic {
+                                            height: 250px;
+                                            width: 100%;
+                                            object-fit: cover;
+                                            object-position: top;
+                                            border-radius: 10px;
+                                        }
+                                        
+                                        .halftwo {
+                                            position: relative;
+                                        }
+                                        
+                                        .logo {
+                                            height: 63px;
+                                            border-radius: 50px;
+                                            width: 58px;
+                                        }
+                                        
+                                        .click {
+                                            height: 50px;
+                                            width: 150px;
+                                            background-color: rgb(211, 211, 54);
+                                            border: none;
+                                            border-radius: 30px;
+                                            position: absolute;
+                                            bottom: 0px;
+                                            background-color: rgb(211, 211, 54);
+                                            border: 0;
+                                            color: rgb(47, 142, 47);
+                                            transition-duration: 0.5s;
+                                        }
+                                        
+                                        .halftwo button:hover {
+                                            background-color: rgb(47, 142, 47);
+                                            color: rgb(211, 211, 54);
+                                        }
+                                        
+                                        @media (max-width:998px) {
+                                            .click {
+                                                position: relative;
+                                                bottom: 0px;
+                                                height: 40px;
+                                                width: 100px;
+                                                font-size: small;
+                                            }
+                                            .textpart button {
+                                                margin-top: 10px;
+                                            }
+                                        }
+                                        /* SECTION OF WHY CHOOSE  US */
+                                        
+                                        .textpart {
+                                            /* height: 500px; */
+                                            position: relative;
+                                            /* background-color: rgb(80, 206, 155); */
+                                        }
+                                        
+                                        .textpart .few {
+                                            font-family: 'Times New Roman', Times, serif;
+                                        }
+                                        
+                                        .textpart b {
+                                            color: rgb(47, 142, 47);
+                                            font-size: 20px;
+                                        }
+                                        
+                                        .fa-check {
+                                            font-size: 20px;
+                                            margin: 10px 0px;
+                                        }
+                                        
+                                        .fa-check p {
+                                            font-size: 12px;
+                                            display: inline;
+                                            letter-spacing: 2px;
+                                        }
+                                        
+                                        .imgpart {
+                                            height: auto;
+                                            /* background-color: rgb(0, 255, 225); */
+                                        }
+                                        
+                                        .textnimg .imgpart {
+                                            border-radius: 10px;
+                                        }
+                                        
+                                        .img1 {
+                                            text-align: center;
+                                            background-color: rgb(47, 142, 47);
+                                            height: 250px;
+                                            color: rgb(211, 211, 54);
+                                            text-align: center;
+                                            padding-top: 25px;
+                                            box-sizing: border-box;
+                                        }
+                                        
+                                        .img2 {
+                                            text-align: center;
+                                            background-color: rgb(211, 211, 54);
+                                            color: rgb(47, 142, 47);
+                                            height: 250px;
+                                            text-align: center;
+                                            padding-top: 25px;
+                                            box-sizing: border-box;
+                                        }
+                                        
+                                        .img3 {
+                                            text-align: center;
+                                            background-color: rgb(211, 211, 54);
+                                            color: rgb(47, 142, 47);
+                                            height: 250px;
+                                            text-align: center;
+                                            padding-top: 25px;
+                                            box-sizing: border-box;
+                                        }
+                                        
+                                        .img4 {
+                                            text-align: center;
+                                            background-color: rgb(47, 142, 47);
+                                            height: 250px;
+                                            color: rgb(211, 211, 54);
+                                            text-align: center;
+                                            padding-top: 25px;
+                                            box-sizing: border-box;
+                                        }
+                                        
+                                        @media (max-width:768px) {
+                                            .img3 {
+                                                background-color: rgb(47, 142, 47);
+                                            }
+                                            .img4 {
+                                                background-color: rgb(211, 211, 54);
+                                            }
+                                        }
+                                        /* why second section */
+                                        
+                                        .backimg {
+                                            margin-top: 100px;
+                                            height: 400px;
+                                            background-image: url(images/sec.jpeg);
+                                            background-attachment: fixed;
+                                            background-size: cover;
+                                            display: flex;
+                                            justify-content: center;
+                                            /* background-position: center; */
+                                        }
+                                        
+                                        .cowbackimg {
+                                            object-fit: cover;
+                                            height: 250px;
+                                            border-radius: 5px;
+                                            width: 200px;
+                                        }
+                                        
+                                        .backimg2 {
+                                            /* padding: 50px 0px 50px 0px; */
+                                            /* background-color: aqua; */
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                        }
+                                        
+                                        .backimg h3 {
+                                            font-weight: 1000;
+                                            font-family: 'Times New Roman', Times, serif;
+                                            color: white;
+                                        }
+                                        
+                                        .backimg h6 {
+                                            font-family: 'Times New Roman', Times, serif;
+                                            color: white;
+                                        }
+                                        
+                                        .backimg3 {
+                                            padding: 50px 0px 50px 0px;
+                                            /* background-color: rgb(66, 84, 84); */
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                        }
+                                        
+                                        .backimg5 {
+                                            padding: 0px 20px 0px 20px;
+                                        }
+                                        
+                                        .backimgbtm {
+                                            padding: 10px 15px 10px 15px;
+                                            border-radius: 20px;
+                                            border: 0px;
+                                            background-color: rgb(211, 211, 54);
+                                            color: rgb(47, 142, 47);
+                                            margin-top: 10px;
+                                            transition-duration: 0.5s;
+                                        }
+                                        
+                                        .backimgbtm:hover {
+                                            background-color: rgb(47, 142, 47);
+                                            color: rgb(211, 211, 54);
+                                        }
+                                        
+                                        .textpart button:hover {
+                                            background-color: rgb(47, 142, 47);
+                                            color: rgb(211, 211, 54);
+                                        }
+                                        
+                                        @media(max-width:1100px) {
+                                            .backimg {
+                                                padding-top: 50px;
+                                                padding-bottom: 0px;
+                                                height: auto;
+                                                flex-direction: column;
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+                                            }
+                                            .backimg2,
+                                            .backimg3 {
+                                                width: 100%;
+                                            }
+                                            .backimgbtm {
+                                                padding: 3px 5px;
+                                            }
+                                            /* .cowbackimg {
+                                          height: 200px;
+                                                width: 200px;
+                                                 } */
+                                            /* .backimg5 {
+                                          height: 200px;
+                                         width: 200px;
+                                                } */
+                                        }
+                                        /* backgrund image */
+                                        
+                                        .our {
+                                            height: auto;
+                                            margin-top: 100px;
+                                            padding: 50px 0px 10px 0px;
+                                            /* background-color: cornflowerblue; */
+                                            display: flex;
+                                            justify-content: center;
+                                        }
+                                        
+                                        .our2 {
+                                            height: auto;
+                                            /* background-color: greenyellow; */
+                                            text-align: center;
+                                        }
+                                        
+                                        .our3 {
+                                            padding-top: 50px;
+                                            padding-bottom: 50px;
+                                            height: auto;
+                                            /* background-color: aqua; */
+                                            display: flex;
+                                            justify-content: center;
+                                        }
+                                        
+                                        .our2 h3 {
+                                            color: rgb(47, 142, 47);
+                                        }
+                                        
+                                        .our2 h1 {
+                                            font-family: 'Times New Roman', Times, serif;
+                                        }
+                                        
+                                        .ourimg {
+                                            height: 130px;
+                                            width: 130px;
+                                            object-fit: cover;
+                                            border-radius: 50%;
+                                            border: 10px solid whitesmoke;
+                                            position: absolute;
+                                            z-index: 1000;
+                                        }
+                                        
+                                        .our4 {
+                                            background-color: rgb(255, 176, 127);
+                                            position: relative;
+                                        }
+                                        /************************** Our ****************************/
+                                        
+                                        .best {
+                                            height: auto;
+                                            padding: 100px 0px 50px 0px;
+                                            background-color: red;
+                                            display: flex;
+                                            justify-content: space-between;
+                                        }
+                                        
+                                        .onee {
+                                            height: 300px;
+                                            display: flex;
+                                        }
+                                        
+                                        .bestt {
+                                            height: 100%;
+                                            width: 100%;
+                                            background-color: orange;
+                                            background-size: cover;
+                                            background-image: url(images/cows-eating-lush-grass-green-field-front-fuji-mountain-japan-min.jpg);
+                                            position: relative;
+                                            /* display: none; */
+                                            transition-duration: 3s;
+                                        }
+                                        
+                                        .besttext {
+                                            padding: 0px 40px;
+                                        }
+                                        
+                                        .bestt:hover .white {
+                                            display: block;
+                                        }
+                                        
+                                        .white {
+                                            height: 100%;
+                                            background-color: rgb(255, 255, 255);
+                                            transition-duration: 1s;
+                                            animation-name: slide;
+                                            overflow: hidden;
+                                            display: none;
+                                        }
+                                        
+                                        @keyframes slide {
+                                            0% {}
+                                        }
+                                        
+                                        .white:hover {
+                                            /* transform: translatex(300px); */
+                                            display: block;
+                                            overflow: hidden;
+                                        }
+                                        
+                                        .best h3 {
+                                            padding-top: 50px;
+                                            font-family: 'Times New Roman', Times, serif;
+                                        }
+                                        
+                                        .best p {
+                                            padding-bottom: 10px;
+                                            font-weight: 100;
+                                        }
+                                        
+                                        .bestt button {
+                                            padding: 10px 15px;
+                                            border-radius: 50%;
+                                            border: none;
+                                            background-color: rgb(211, 211, 54);
+                                        }
+                                        /********************* best***********************/
+                                        
+                                        .multi {
+                                            display: flex;
+                                            padding: 0%;
+                                            margin-top: 100px;
+                                            /* height: 600px; */
+                                            /* background-color: burlywood; */
+                                        }
+                                        
+                                        .coww {
+                                            /* height: 600px; */
+                                            /* background-color: orange; */
+                                            display: flex;
+                                        }
+                                        
+                                        .coww2 {
+                                            /* height: 600px; */
+                                            /* background-color: rgb(66, 55, 34); */
+                                            display: flex;
+                                        }
+                                        
+                                        .coowimg {
+                                            height: 300px;
+                                            width: 100%;
+                                            object-fit: cover;
+                                        }
+                                        
+                                        .coowimg2 {
+                                            height: 400px;
+                                            width: 100%;
+                                            object-fit: cover;
+                                        }
+                                        
+                                        @media(max-width:1000px) {
+                                            .multi {
+                                                flex-direction: column;
+                                            }
+                                            .coww2 {}
+                                        }
+                                        /******************** multi*************************/
+                                        
+                                        .pure {
+                                            height: auto;
+                                            /* background-color: antiquewhite; */
+                                            display: flex;
+                                            padding: 0%;
+                                        }
+                                        
+                                        .pure1 {
+                                            /* display: flex; */
+                                            position: relative;
+                                            height: 400px;
+                                            /* display: flex;
+                                            justify-content: center; */
+                                        }
+                                        
+                                        .black {
+                                            height: 300px;
+                                            width: 93%;
+                                            background-color: rgba(0, 0, 0, 0.329);
+                                            position: absolute;
+                                            top: 0;
+                                            visibility: hidden;
+                                            animation-name: aaa;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                        }
+                                        
+                                        @keyframes aaa {
+                                            0% {
+                                                opacity: 0;
+                                            }
+                                            100% {
+                                                opacity: 1;
+                                            }
+                                        }
+                                        
+                                        .pure1:hover .black {
+                                            visibility: visible;
+                                        }
+                                        
+                                        .black2 {
+                                            height: 300px;
+                                            width: 93%;
+                                            background-color: rgba(0, 0, 0, 0.329);
+                                            position: absolute;
+                                            top: 0;
+                                            visibility: hidden;
+                                            animation-name: aaa;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                        }
+                                        
+                                        @keyframes aaa {
+                                            0% {
+                                                opacity: 0;
+                                            }
+                                            100% {
+                                                opacity: 1;
+                                            }
+                                        }
+                                        
+                                        .pure2:hover .black2 {
+                                            visibility: visible;
+                                        }
+                                        
+                                        .pure2 {
+                                            height: 400px;
+                                            /* background-color: rgb(72, 0, 255); */
+                                            position: relative;
+                                        }
+                                        
+                                        .shop {
+                                            padding: 15px;
+                                            border-radius: 50%;
+                                            border: none;
+                                            background-color: rgb(211, 211, 54);
+                                            color: rgb(47, 142, 47);
+                                            animation-name: shop;
+                                        }
+                                        
+                                        @keyframes shop {
+                                            0% {
+                                                transform: translatex(300px)
+                                            }
+                                            100% {
+                                                transform: translatex(300px)
+                                            }
+                                        }
+                                        
+                                        .shop:hover {
+                                            background-color: rgb(47, 142, 47);
+                                            color: rgb(211, 211, 54);
+                                        }
+                                        
+                                        .pure3 {
+                                            height: 400px;
+                                            /* background-color: rgb(255, 0, 200); */
+                                            position: relative;
+                                        }
+                                        
+                                        .black3 {
+                                            height: 300px;
+                                            width: 93%;
+                                            background-color: rgba(0, 0, 0, 0.329);
+                                            position: absolute;
+                                            top: 0;
+                                            visibility: hidden;
+                                            animation-name: aaa;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                        }
+                                        
+                                        @keyframes aaa {
+                                            0% {
+                                                opacity: 0;
+                                            }
+                                            100% {
+                                                opacity: 1;
+                                            }
+                                        }
+                                        
+                                        .pure3:hover .black3 {
+                                            visibility: visible;
+                                        }
+                                        
+                                        .pure4 {
+                                            height: 400px;
+                                            /* background-color: rgb(255, 0, 76); */
+                                            position: relative;
+                                        }
+                                        
+                                        .black4 {
+                                            height: 300px;
+                                            width: 93%;
+                                            background-color: rgba(0, 0, 0, 0.329);
+                                            position: absolute;
+                                            top: 0;
+                                            visibility: hidden;
+                                            animation-name: aaa;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                        }
+                                        
+                                        @keyframes aaa {
+                                            0% {
+                                                opacity: 0;
+                                            }
+                                            100% {
+                                                opacity: 1;
+                                            }
+                                        }
+                                        
+                                        .pure4:hover .black4 {
+                                            visibility: visible;
+                                        }
+                                        
+                                        .pureimg {
+                                            width: 100%;
+                                            object-fit: cover;
+                                            height: 300px;
+                                        }
+                                        
+                                        @media(max-width:1100px) {
+                                            .pure {
+                                                flex-direction: column;
+                                            }
+                                            .pure1,
+                                            .pure2,
+                                            .pure3,
+                                            .pure4 {
+                                                padding: 0;
+                                            }
+                                            .pureimg {}
+                                        }
+                                        /********************* pure *********************/
+                                        
+                                        .main {
+                                            padding-top: 50px;
+                                        }
+                                        
+                                        .abc {
+                                            background-image: url(images/stock-vector-abstract-white-and-gray-color-modern-design-stripes-background-with-geometric-round-shape-vector-2275076235.jpg);
+                                        }
+                                        
+                                        .photo {
+                                            height: 500px;
+                                            display: flex;
+                                            /* background-color: rgb(53, 136, 208); */
+                                            padding: 0%;
+                                        }
+                                        
+                                        .left {
+                                            height: 500px;
+                                            /* background-color: red; */
+                                            padding: 0%;
+                                        }
+                                        
+                                        .right {
+                                            height: 500px;
+                                            /* background-color: rgb(127, 79, 79); */
+                                            padding: 0%;
+                                        }
+                                        
+                                        .half1 {
+                                            height: 250px;
+                                            /* background-color: red; */
+                                        }
+                                        
+                                        .half2 {
+                                            height: 250px;
+                                            /* background-color: blue; */
+                                            display: flex;
+                                            justify-content: end;
+                                        }
+                                        
+                                        @media(max-width:1100px) {
+                                            .half2 {
+                                                display: block;
+                                            }
+                                        }
+                                        
+                                        .mainimg {
+                                            height: 100px;
+                                            width: 100px;
+                                            border-radius: 50%;
+                                            object-fit: cover;
+                                            animation-name: ankit;
+                                            animation-iteration-count: infinite;
+                                            animation-duration: 1s;
+                                        }
+                                        
+                                        @keyframes ankit {
+                                            0% {
+                                                transform: scale(1);
+                                            }
+                                            100% {
+                                                transform: scale(1.2);
+                                            }
+                                        }
+                                        
+                                        .mainimgg {
+                                            height: 100px;
+                                            width: 100px;
+                                            border-radius: 50%;
+                                            animation-name: ankit;
+                                            animation-iteration-count: infinite;
+                                            animation-duration: 1s;
+                                            overflow: hidden;
+                                            object-fit: cover;
+                                        }
+                                        /* main */
+                                        
+                                        .slide {
+                                            padding: 0px 30px;
+                                        }
+                                        
+                                        .cimg {
+                                            object-fit: cover;
+                                            height: 100px;
+                                            width: 100px;
+                                            border-radius: 50%;
+                                            margin-top: 100px;
+                                        }
+                                        
+                                        .ang {
+                                            padding: 15px 20px;
+                                            border-radius: 50%;
+                                            border: none;
+                                            color: rgb(47, 142, 47);
+                                            background-color: rgb(211, 211, 54);
+                                            transition-duration: 0.3s;
+                                        }
+                                        
+                                        .ang:hover {
+                                            background-color: rgb(47, 142, 47);
+                                            color: rgb(211, 211, 54);
+                                        }
+                                        
+                                        .btnn {
+                                            margin-top: 50px;
+                                            padding: 0px 30px;
+                                        }
+                                        /* .btnn,
+                                        .button {
+                                            border: none;
+                                        } */
+                                        /* slide */
+                                        
+                                        .solo {
+                                            box-sizing: border-box;
+                                            padding: 50px 0px 50px 0px;
+                                        }
+                                        
+                                        .empty {
+                                            background-color: rgb(255, 255, 255);
+                                            padding: 15px;
+                                            border-radius: 10px;
+                                        }
+                                        
+                                        .empty h1 {
+                                            font-family: 'Times New Roman', Times, serif;
+                                        }
+                                        
+                                        .empty h3 {
+                                            font-weight: 100;
+                                        }
+                                        
+                                        .sociallogo {
+                                            color: rgb(47, 142, 47);
+                                            background-color: rgb(211, 211, 54);
+                                            transition-duration: 0.3s;
+                                        }
+                                        
+                                        .sociallogo:hover {
+                                            color: rgb(211, 211, 54);
+                                            background-color: rgb(47, 142, 47);
+                                        }
+                                        
+                                        .one {
+                                            padding: 20px;
+                                            box-sizing: border-box;
+                                            text-align: center;
+                                        }
+                                        
+                                        .one h1 {
+                                            font-size: 32px;
+                                            padding-top: 10px;
+                                        }
+                                        
+                                        .two h1 {
+                                            font-size: 32px;
+                                            padding-top: 10px;
+                                        }
+                                        
+                                        .three h1 {
+                                            font-size: 32px;
+                                            padding-top: 10px;
+                                        }
+                                        
+                                        .one .sociallogo {
+                                            padding: 15px;
+                                            border-radius: 50%;
+                                            /* letter-spacing: 10px; */
+                                        }
+                                        
+                                        .two .sociallogo {
+                                            padding: 15px;
+                                            border-radius: 50%;
+                                        }
+                                        
+                                        .three .sociallogo {
+                                            padding: 15px;
+                                            border-radius: 50%;
+                                        }
+                                        
+                                        .two {
+                                            padding: 20px;
+                                            box-sizing: border-box;
+                                            text-align: center;
+                                        }
+                                        
+                                        .three {
+                                            padding: 20px;
+                                            box-sizing: border-box;
+                                            text-align: center;
+                                        }
+                                        
+                                        .pic {
+                                            height: 400px;
+                                            width: 100%;
+                                            object-fit: cover;
+                                            border-radius: 10px;
+                                            box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+                                        }
+                                        
+                                        .sociallogo {
+                                            font-size: 30px;
+                                            color: black;
+                                        }
+                                        
+                                        @media(max-width:1100px) {
+                                            .one {
+                                                padding: 0px 0px 10px 0px;
+                                            }
+                                            .two {
+                                                padding: 0px 0px 10px 0px;
+                                            }
+                                            .three {
+                                                padding: 0px 0px 10px 0px;
+                                            }
+                                            .empty {
+                                                padding: 0px;
+                                            }
+                                            .pic {
+                                                padding-left: 0px;
+                                                width: 80%;
+                                            }
+                                            .btnn {
+                                                padding: 0px;
+                                                margin-top: 10px;
+                                            }
+                                        }
+                                        /* solo */
+                                        
+                                        .footer {
+                                            display: flex;
+                                            padding: 30px 10px;
+                                            background-color: rgb(61, 61, 61);
+                                            color: white;
+                                        }
+                                        
+                                        .footer1 {
+                                            /* padding: 0px 0px 100px 0px; */
+                                            height: auto;
+                                            /* background-color: aqua; */
+                                        }
+                                        
+                                        .footer1 h3 {
+                                            padding-bottom: 30px;
+                                            font-family: 'Times New Roman', Times, serif;
+                                        }
+                                        
+                                        .footer1 h5 {
+                                            font-weight: 100;
+                                        }
+                                        
+                                        .footer2 a {
+                                            font-weight: 100;
+                                        }
+                                        
+                                        .footer2 h3 {
+                                            padding-bottom: 30px;
+                                            font-family: 'Times New Roman', Times, serif;
+                                        }
+                                        
+                                        .footer3 h3 {
+                                            padding-bottom: 30px;
+                                        }
+                                        
+                                        .foote4 h3 {
+                                            padding-bottom: 30px;
+                                        }
+                                        
+                                        .footer2 {
+                                            height: auto;
+                                            /* background-color: rgb(51, 91, 91); */
+                                        }
+                                        
+                                        .footer2 h3,
+                                        a {
+                                            color: white;
+                                        }
+                                        
+                                        .footer3 {
+                                            height: auto;
+                                            padding-top: 10px;
+                                            /* background-color: rgb(255, 47, 0); */
+                                        }
+                                        /* .footer3 h4 {
+                                            padding-bottom: 20px;
+                                        }
+                                        
+                                        .footer4 h3 {
+                                            padding-bottom: 30px;
+                                        }
+                                        
+                                        .footer4 {
+                                            height: auto;
+                                            background-color: rgb(242, 0, 255);
+                                        } */
+                                        
+                                        .xyz {
+                                            padding-right: 15px;
+                                        }
+                                        /* .footer2 a {
+                                            padding-right: 15px;
+                                        } */
+                                        
+                                        .footimg {
+                                            color: rgb(47, 142, 47);
+                                            background-color: rgb(211, 211, 54);
+                                            transition-duration: 0.5s;
+                                            padding: 10px;
+                                            border-radius: 50%;
+                                            margin: 0px 10px;
+                                        }
+                                        
+                                        .footimg:hover {
+                                            color: rgb(211, 211, 54);
+                                            background-color: rgb(47, 142, 47);
+                                        }
+                                        
+                                        .input {
+                                            width: 80%;
+                                        }
+                                        
+                                        .letter {
+                                            font-weight: 100;
+                                        }
+                                        
+                                        .message {
+                                            padding: 0 0 50px 0;
+                                        }
+                                        
+                                        .footerbtn {
+                                            color: rgb(47, 142, 47);
+                                            background-color: rgb(211, 211, 54);
+                                            padding: 10px 20px;
+                                            transition-duration: 0.3s;
+                                            border-radius: 20px;
+                                            border: 0px;
+                                            margin-top: 10px;
+                                        }
+                                        
+                                        .footerbtn:hover {
+                                            color: rgb(211, 211, 54);
+                                            background-color: rgb(47, 142, 47);
+                                        }
+                                        
+                                        @media(max-width:1100px) {
+                                            .footer {
+                                                flex-direction: column;
+                                            }
+                                            .slide {
+                                                padding: 0px 10px;
+                                            }
+                                        }
